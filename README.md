@@ -3,12 +3,9 @@ This program’s goal is to develop an item tracking program for the Corner Groc
 
     Allow the user to search for a product and find the number of times it was purchased.
 
-
     Display each purchased item paired with its frequency.
 
-
     Display a histogram of all purchased items followed by special characters representing their frequency in the document.
-
 
     Exit the program.
 
