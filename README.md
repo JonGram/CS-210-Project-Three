@@ -2,7 +2,7 @@
 This program’s goal is to develop an item tracking program for the Corner Grocer company, so they can analyze the text record of all purchased products throughout the day. It needs to develop four menu options performing the following actions.
   Allow the user to search for a product and find the number of times it was purchased.
   Display each purchased item paired with its frequency.
-  Display a histogram of all purchased items followed by special characters representing their frequency in the document.
+  Display a histogram of all purchased items followed by special characters representing their frequency.
   Exit the program.
 For this project, developing the function that counts the number of times each item appears in the document was the least of the challenges I faced.
 However, the program's documentation did not follow the norms as it needs to include screenshots of the outputs.
