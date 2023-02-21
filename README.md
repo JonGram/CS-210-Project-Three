@@ -1,3 +1,5 @@
+CS210 PROJECT THREE
+
 This program’s goal is to develop an item tracking program for the Corner Grocer company, so they can analyze the text record of all purchased products throughout the day. It needs to develop four menu options performing the following actions.
 
     Allow the user to search for a product and find the number of times it was purchased.
