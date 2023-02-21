@@ -1,9 +1,11 @@
 
 This program’s goal is to develop an item tracking program for the Corner Grocer company, so they can analyze the text record of all purchased products throughout the day. It needs to develop four menu options performing the following actions.
-  Allow the user to search for a product and find the number of times it was purchased.
-  Display each purchased item paired with its frequency.
-  Display a histogram of all purchased items followed by special characters representing their frequency.
+
+  Allow the user to search for a product and find the number of times it was purchased. 
+  Display each purchased item paired with its frequency. 
+  Display a histogram of all purchased items followed by special characters representing their frequency. 
   Exit the program.
+  
 For this project, developing the function that counts the number of times each item appears in the document was the least of the challenges I faced.
 However, the program's documentation did not follow the norms as it needs to include screenshots of the outputs.
 The most challenging piece of code I overcame was to display each purchased item paired with its frequency and aligned in the center. Fortunately, I was able to see that for all to be centered in the middle of the screen, the middle of each product paired with their frequency must be aligned. That is, printing half of each product's name and its frequency on a constant length L on each line, I need to print x leading spaces followed by half of the length of the product name and the length of its frequency, such that x = L – (1/2)y and y being the length of the product name and the half length of its frequency, without ignoring the one space character that separates them). Using the nCharString() function of our projects (One and Two) which prints a given character on a given length, (nCharString( size_t length, char c)), I was able to print the leading spaces.
