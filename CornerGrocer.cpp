@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------------------------------------//
-//                            Coner Grocer Application
+//                            Corner Grocer Application
 //                                Computer Science
 //                        CS210 Programming Languages: Project Three
 //                                  Yao Tsikplonu
@@ -74,6 +74,7 @@ int main() {
 		} while (userChoice[0] != '4');
 		cout << "Goodbye!"<< endl;
 		delete allProducts;
+		inFS.close();
 	}
 	return 0;
 }
